@@ -36,6 +36,23 @@
 
 
 <style>
+  .format {
+    font: 24px;
+    padding: 5px;
+    width: 500px;
+    height: 100px;
+    margin: 5px;
+    text-align:center;
+    overflow-x: scroll;
+}
+.format::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.format {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
